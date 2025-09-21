@@ -1,0 +1,101 @@
+name: res_q
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  google_sign_in: ^6.1.5
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.1
+  flutter_map: ^6.1.0
+  geolocator: ^10.1.0
+  latlong2: ^0.9.0
+  http: ^1.3.0
+  font_awesome_flutter: ^10.7.0
+  share_plus: ^7.2.1
+  animated_splash_screen: ^1.3.0
+  page_transition: ^2.1.0
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/earthquake.jpg
+    - assets/flood.jpg
+    - assets/fire.png
+    - assets/background.jpg
+    - assets/signup.png
+    - assets/1.jpg
+    - assets/2.jpg
+    - assets/icon.jpg
+    - assets/21.png
+    - assets/earthquake/1.png
+    - assets/earthquake/2.png
+    - assets/earthquake/3.png
+    - assets/earthquake/4.png
+    - assets/earthquake/5.jpg
+    - assets/earthquake/6.jpg
+    - assets/earthquake/7.png
+    - assets/earthquake/8.jpg
+    - assets/earthquake/9.png
+    - assets/earthquake/10.jpg
+    - assets/earthquake/11.png
+    - assets/earthquake/12.png
+    - assets/flood/1.png
+    - assets/flood/2.png
+    - assets/flood/3.png
+    - assets/flood/4.png
+    - assets/flood/5.png
+    - assets/flood/6.png
+    - assets/flood/7.png
+    - assets/flood/8.png
+    - assets/flood/9.png
+    - assets/flood/10.png
+    - assets/flood/11.png
+    - assets/flood/12.png
+    - assets/fire/1.png
+    - assets/fire/2.png
+    - assets/fire/3.png
+    - assets/fire/4.png
+    - assets/fire/5.png
+    - assets/fire/6.png
+    - assets/fire/7.png
+    - assets/fire/8.png
+    - assets/fire/9.png
+    - assets/fire/10.png
+    - assets/fire/11.png
+    - assets/fire/12.png
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/21.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  background_image: assets/2.jpg
+  image: assets/21.png
+  android: true
+  ios: true
+  fullscreen: true
+  android_gravity: fill
+  ios_content_mode: scaleToFill

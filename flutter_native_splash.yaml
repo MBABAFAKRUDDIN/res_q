@@ -1,0 +1,7 @@
+flutter_native_splash:
+  color: "#ffffff" # White background
+  image: assets/21.png # Replace with your splash image path
+  android: true
+  ios: true
+  android_gravity: fill
+  ios_content_mode: scaleToFill
